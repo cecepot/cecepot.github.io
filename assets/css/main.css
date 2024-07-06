@@ -259,7 +259,10 @@ input, select, textarea {
 		}
 
 /* Row */
-
+		.center{
+			display: flex;
+			justify-content: center;
+		}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -328,7 +331,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 48%;
 		}
 
 		.row > .off-4 {
@@ -2002,7 +2005,7 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		/* box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05); */
 		margin-bottom: 40px;
 	}
 
